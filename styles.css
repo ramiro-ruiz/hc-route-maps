@@ -10,6 +10,11 @@ body {
     flex-direction: row-reverse;
 }
 
+#map {
+    height: 100vh;
+    width: calc(100% - 420px);
+}
+
 .info-panel {
     width: 420px;
     max-width: 420px;
@@ -113,6 +118,10 @@ ul {
     display: none;
 }
 
+.leaflet-touch .leaflet-control-attribution {
+    display: none;
+}
+
 .place-link {
     color:#2980b9;
     font-weight: 500;
@@ -131,4 +140,44 @@ ul {
 
 .stack-lg > * + * {
     margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .info-panel {
+        width: auto;
+        height: 40vh;
+        max-height: 40vh;
+        overflow: hidden;
+        padding: 1.5rem 0;
+        box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 999;
+    }
+
+    .info-panel .logo {
+        padding: 0 1.5rem;
+    }
+
+    .info-content {
+        overflow: auto;
+        height: 100%;
+        padding: 0 1.5rem;
+    }
+
+    .info-content::after {
+        content: '';
+        display: block;
+        height: 1.5rem;
+    }
+
+    #map {
+        flex: 1;
+        width: 100%;
+    }
 }

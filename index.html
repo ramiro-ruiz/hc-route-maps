@@ -9,18 +9,12 @@
       integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-    <style>
-      #map {
-        height: 100vh;
-        width: calc(100% - 420px);
-      }
-    </style>
   </head>
 
   <body>
     <div id="map"></div>
     <div class="info-panel">
-      <svg width="300" height="23" viewBox="0 0 300 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="logo" width="300" height="23" viewBox="0 0 300 23" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_4_71)">
           <path
             d="M2.42915 12.0579V21.6078H0V0.366547H2.42915V9.80067H14.8883V0.366547H17.3175V21.5885H14.8883V12.0579H2.42915Z"
@@ -58,184 +52,186 @@
           </clipPath>
         </defs>
       </svg>
-      <div class="desc stack-lg">
-        <div>
-          <p>
-            Aproveche sus rutas y descubra atracciones cercanas. Planifique para no perderse hoteles y puntos turísticos
-            impresionantes.
-          </p>
-          <p>
-            Crea su aventura, diviértase y haga de este viaje una experiencia inolvidable. ¡Buen viaje!
-          </p>
+      <div class="info-content">
+        <div class="desc stack-lg">
+          <div>
+            <p>
+              Aproveche sus rutas y descubra atracciones cercanas. Planifique para no perderse hoteles y puntos turísticos
+              impresionantes.
+            </p>
+            <p>
+              Crea su aventura, diviértase y haga de este viaje una experiencia inolvidable. ¡Buen viaje!
+            </p>
+          </div>
+          <div>
+            <h1>Circuitos</h1>
+            <ul>
+              <li><a class="place-link routeGP">Guadalajara - Puerto Vallarta</a></li>
+              <li><a class="place-link routeMPC">Mazatlán - La Paz- Los Cabos</a></li>
+              <li><a class="place-link routeTRE">Tijuana - Rosarito- Ensenada</a></li>
+              <li><a class="place-link routePV">Puebla - Veracruz</a></li>
+              <li><a class="place-link routeTTC">Tuxtla Gutierrez - Tapachula - Comitán</a></li>
+              <li><a class="place-link routeOAX">Oaxaca Pueblos Mágicos</a></li>
+              <li><a class="place-link routeTCM">Tabasco - Campeche - Merida</a></li>
+              <li><a class="place-link routeCPC">Cancún - Playa del Carmen - Chetumal</a></li>
+              <li><a class="place-link routeQLS">Queretaro - León - San Luis Potosí</a></li>
+              <li><a class="place-link routeCSC">Chihuahua - Sierra Tarahumara - Ciudad Juárez</a></li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h1>Circuitos</h1>
-          <ul>
-            <li><a class="place-link routeGP">Guadalajara - Puerto Vallarta</a></li>
-            <li><a class="place-link routeMPC">Mazatlán - La Paz- Los Cabos</a></li>
-            <li><a class="place-link routeTRE">Tijuana - Rosarito- Ensenada</a></li>
-            <li><a class="place-link routePV">Puebla - Veracruz</a></li>
-            <li><a class="place-link routeTTC">Tuxtla Gutierrez - Tapachula - Comitán</a></li>
-            <li><a class="place-link routeOAX">Oaxaca Pueblos Mágicos</a></li>
-            <li><a class="place-link routeTCM">Tabasco - Campeche - Merida</a></li>
-            <li><a class="place-link routeCPC">Cancún - Playa del Carmen - Chetumal</a></li>
-            <li><a class="place-link routeQLS">Queretaro - León - San Luis Potosí</a></li>
-            <li><a class="place-link routeCSC">Chihuahua - Sierra Tarahumara - Ciudad Juárez</a></li>
-          </ul>
+        <div class="routeGP route-detail">
+          <h1>Guadalajara – Puerto Vallarta</h1>
+          <hr>
+          <div class="stack-lg">
+            <div>
+              <h2>Atractivos Turísticos en la Ruta</h2>
+              <ul>
+                <li>
+                  <a class="place-link">Costa del Sol Jalisco</a>
+                </li>
+                <li>
+                  <a class="place-link">El Arenal "Pueblo de Amigos" "Guajes y vasijas"</a>
+                </li>
+                <li>
+                  <a class="place-link">Amatitlan tierra de los Amates</a>
+                </li>
+                <li>
+                  <a class="place-link">Tequila Capital del Tequila</a>
+                </li>
+                <li>
+                  <a class="place-link">Magdalena Minas de piedra</a>
+                </li>
+                <li>
+                  <a class="place-link">Ixtlan del Rio Zona arqueológica Los Toriles</a>
+                </li>
+                <li>
+                  <a class="place-link">Mexpan muebles de madera y canastos</a>
+                </li>
+                <li>
+                  <a class="place-link">Jala</a>
+                </li>
+                <li>
+                  <a class="place-link">Chacala Hermosa playa de arena fina</a>
+                </li>
+                <li>
+                  <a class="place-link">Rincón de Guayabitos Playa "Coco Loco"</a>
+                </li>
+                <li>
+                  <a class="place-link">Las Caletas</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2>Hoteles en Guadalajara</h2>
+              <ul>
+                <li><a class="place-link">City Express Plus Guadalajara Expo</a></li>
+                <li><a class="place-link">City Express Plus Providencia</a></li>
+                <li><a class="place-link">City Express Plus Palomar</a></li>
+                <li><a class="place-link">City Express Guadalajara Aeropuerto</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Hoteles en Puerto Vallarta</h2>
+              <ul>
+                <li><a class="pvHotel place-link">City Express Plus Puerto Vallarta</a></li>
+              </ul>
+            </div>
+            <button class="route-close">
+              <svg width="16px" height="16px" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17">
+                <g clip-path="url(#a)">
+                  <path d="M13.333 7.904H5.22l3.727-3.726L8 3.238 2.667 8.57 8 13.904l.94-.94-3.72-3.726h8.113V7.904Z"
+                    fill="#29373D" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" transform="translate(0 .57)" d="M0 0h16v16H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
+              Regresar
+            </button>
+          </div>
+          <!--  <button class="route-close">&cross;</button>  -->
         </div>
-      </div>
-      <div class="routeGP route-detail">
-        <h1>Guadalajara – Puerto Vallarta</h1>
-        <hr>
-        <div class="stack-lg">
-          <div>
-            <h2>Atractivos Turísticos en la Ruta</h2>
-            <ul>
-              <li>
-                <a class="place-link">Costa del Sol Jalisco</a>
-              </li>
-              <li>
-                <a class="place-link">El Arenal "Pueblo de Amigos" "Guajes y vasijas"</a>
-              </li>
-              <li>
-                <a class="place-link">Amatitlan tierra de los Amates</a>
-              </li>
-              <li>
-                <a class="place-link">Tequila Capital del Tequila</a>
-              </li>
-              <li>
-                <a class="place-link">Magdalena Minas de piedra</a>
-              </li>
-              <li>
-                <a class="place-link">Ixtlan del Rio Zona arqueológica Los Toriles</a>
-              </li>
-              <li>
-                <a class="place-link">Mexpan muebles de madera y canastos</a>
-              </li>
-              <li>
-                <a class="place-link">Jala</a>
-              </li>
-              <li>
-                <a class="place-link">Chacala Hermosa playa de arena fina</a>
-              </li>
-              <li>
-                <a class="place-link">Rincón de Guayabitos Playa "Coco Loco"</a>
-              </li>
-              <li>
-                <a class="place-link">Las Caletas</a>
-              </li>
-            </ul>
+        <div class="routeMPC route-detail">
+          <h1>Mazatlán - La Paz- Los Cabos</h1>
+          <hr>
+          <div class="stack-lg">
+            <div>
+              <h2>Atractivos Turísticos en la Ruta</h2>
+              <ul>
+                <li>
+                  <a class="place-link">Observatorio</a>
+                </li>
+                <li>
+                  <a class="place-link">El Fuerte</a>
+                </li>
+                <li>
+                  <a class="place-link">Isla Venados</a>
+                </li>
+                <li>
+                  <a class="place-link">El Faro</a>
+                </li>
+                <li>
+                  <a class="place-link">Ferry a La Paz</a>
+                </li>
+                <li>
+                  <a class="place-link">Avistamiento de Ballenas</a>
+                </li>
+                <li>
+                  <a class="place-link">El Centenario</a>
+                </li>
+                <li>
+                  <a class="place-link">Isla del Espriritu Santo</a>
+                </li>
+                <li>
+                  <a class="place-link">Los Cabos</a>
+                </li>
+                <li>
+                  <a class="place-link">La Ventana</a>
+                </li>
+                <li>
+                  <a class="place-link">Sierra de la Laguna "Los Barriles"</a>
+                </li>
+                <li>
+                  <a class="place-link">El Triunfo</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2>Hoteles en Mazatlán</h2>
+              <ul>
+                <li><a class="place-link">City Express Mazatlán</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Hoteles en La Paz</h2>
+              <ul>
+                <li><a class="pvHotel place-link">City Express La Paz</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Hoteles en Los Cabos</h2>
+              <ul>
+                <li><a class="pvHotel place-link">City Express Suites Los Cabos</a></li>
+                <li><a class="pvHotel place-link">City Express Plus Los Cabos</a></li>
+              </ul>
+            </div>
+            <button class="route-close">
+              <svg width="16px" height="16px" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17">
+                <g clip-path="url(#a)">
+                  <path d="M13.333 7.904H5.22l3.727-3.726L8 3.238 2.667 8.57 8 13.904l.94-.94-3.72-3.726h8.113V7.904Z"
+                    fill="#29373D" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" transform="translate(0 .57)" d="M0 0h16v16H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
+              Regresar
+            </button>
           </div>
-          <div>
-            <h2>Hoteles en Guadalajara</h2>
-            <ul>
-              <li><a class="place-link">City Express Plus Guadalajara Expo</a></li>
-              <li><a class="place-link">City Express Plus Providencia</a></li>
-              <li><a class="place-link">City Express Plus Palomar</a></li>
-              <li><a class="place-link">City Express Guadalajara Aeropuerto</a></li>
-            </ul>
-          </div>
-          <div>
-            <h2>Hoteles en Puerto Vallarta</h2>
-            <ul>
-              <li><a class="pvHotel place-link">City Express Plus Puerto Vallarta</a></li>
-            </ul>
-          </div>
-          <button class="route-close">
-            <svg width="16px" height="16px" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17">
-              <g clip-path="url(#a)">
-                <path d="M13.333 7.904H5.22l3.727-3.726L8 3.238 2.667 8.57 8 13.904l.94-.94-3.72-3.726h8.113V7.904Z"
-                  fill="#29373D" />
-              </g>
-              <defs>
-                <clipPath id="a">
-                  <path fill="#fff" transform="translate(0 .57)" d="M0 0h16v16H0z" />
-                </clipPath>
-              </defs>
-            </svg>
-            Regresar
-          </button>
-        </div>
-        <!--  <button class="route-close">&cross;</button>  -->
-      </div>
-      <div class="routeMPC route-detail">
-        <h1>Mazatlán - La Paz- Los Cabos</h1>
-        <hr>
-        <div class="stack-lg">
-          <div>
-            <h2>Atractivos Turísticos en la Ruta</h2>
-            <ul>
-              <li>
-                <a class="place-link">Observatorio</a>
-              </li>
-              <li>
-                <a class="place-link">El Fuerte</a>
-              </li>
-              <li>
-                <a class="place-link">Isla Venados</a>
-              </li>
-              <li>
-                <a class="place-link">El Faro</a>
-              </li>
-              <li>
-                <a class="place-link">Ferry a La Paz</a>
-              </li>
-              <li>
-                <a class="place-link">Avistamiento de Ballenas</a>
-              </li>
-              <li>
-                <a class="place-link">El Centenario</a>
-              </li>
-              <li>
-                <a class="place-link">Isla del Espriritu Santo</a>
-              </li>
-              <li>
-                <a class="place-link">Los Cabos</a>
-              </li>
-              <li>
-                <a class="place-link">La Ventana</a>
-              </li>
-              <li>
-                <a class="place-link">Sierra de la Laguna "Los Barriles"</a>
-              </li>
-              <li>
-                <a class="place-link">El Triunfo</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2>Hoteles en Mazatlán</h2>
-            <ul>
-              <li><a class="place-link">City Express Mazatlán</a></li>
-            </ul>
-          </div>
-          <div>
-            <h2>Hoteles en La Paz</h2>
-            <ul>
-              <li><a class="pvHotel place-link">City Express La Paz</a></li>
-            </ul>
-          </div>
-          <div>
-            <h2>Hoteles en Los Cabos</h2>
-            <ul>
-              <li><a class="pvHotel place-link">City Express Suites Los Cabos</a></li>
-              <li><a class="pvHotel place-link">City Express Plus Los Cabos</a></li>
-            </ul>
-          </div>
-          <button class="route-close">
-            <svg width="16px" height="16px" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17">
-              <g clip-path="url(#a)">
-                <path d="M13.333 7.904H5.22l3.727-3.726L8 3.238 2.667 8.57 8 13.904l.94-.94-3.72-3.726h8.113V7.904Z"
-                  fill="#29373D" />
-              </g>
-              <defs>
-                <clipPath id="a">
-                  <path fill="#fff" transform="translate(0 .57)" d="M0 0h16v16H0z" />
-                </clipPath>
-              </defs>
-            </svg>
-            Regresar
-          </button>
         </div>
       </div>
       <div class="routeGP route-info">
