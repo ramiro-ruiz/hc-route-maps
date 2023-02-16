@@ -13,6 +13,8 @@ body {
 #map {
     height: 100vh;
     width: calc(100% - 420px);
+    position: sticky;
+    top: 0;
 }
 
 .info-panel {
