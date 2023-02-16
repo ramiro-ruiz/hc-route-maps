@@ -4,6 +4,51 @@ var puertoVallarta = [20.620391, -105.230498];
 var map = L.map('map').setView(guadalajara, 5);
 map.zoomControl.setPosition('bottomright');
 
+// Custom icons
+// Custom icons - Hotels
+var cityExpressIcon = L.icon({
+    iconUrl: 'logos/city-express.svg',
+    iconSize: [70, 30],
+    iconAnchor: [40, 0],
+    popupAnchor: [0, 0],
+});
+
+var cityCentroIcon = L.icon({
+    iconUrl: 'logos/city-centro.svg',
+    iconSize: [130, 30],
+    iconAnchor: [60, 0],
+    popupAnchor: [0, 0],
+});
+
+var cityJuniorIcon = L.icon({
+    iconUrl: 'logos/city-junior.svg',
+    iconSize: [70, 30],
+    iconAnchor: [40, 0],
+    popupAnchor: [0, 0],
+});
+
+var cityPlusIcon = L.icon({
+    iconUrl: 'logos/city-plus.svg',
+    iconSize: [50, 50],
+    iconAnchor: [20, 0],
+    popupAnchor: [0, 0],
+});
+
+var citySuitesIcon = L.icon({
+    iconUrl: 'logos/city-suites.svg',
+    iconSize: [100, 40],
+    iconAnchor: [50, 0],
+    popupAnchor: [0, 0],
+});
+
+// Custom icons - Attractions
+var attractionIcon = L.icon({
+    iconUrl: 'attraction.svg',
+    iconSize: [30, 40],
+    iconAnchor: [15, 0],
+    popupAnchor: [0, 0],
+});
+
 var locations = [
   { name: 'Guadalajara', coords: [20.659698, -103.349609] },
   { name: 'Puerto Vallarta', coords: [20.620391, -105.230498] },
@@ -142,69 +187,69 @@ var attractionLocations = [
 ];
 
 var hotelLocations = [
-  { class: ".place-h0", name: 'City Express Plus Guadalajara Expo', coords: [20.65195856855506, -103.39705115596848] },
-  { class: ".place-h1", name: 'City Express Plus Providencia', coords: [20.698773994535614, -103.37340650385191] },
-  { class: ".place-h2", name: 'City Express Plus Palomar', coords: [20.588784049984586, -103.44408660385436] },
-  { class: ".place-h3", name: 'City Express Guadalajara Aeropuerto', coords: [20.574943364376754, -103.29341573689527] },
-  { class: ".place-h4", name: 'City Express Plus Puerto Vallarta', coords: [20.654018544662325, -105.23938750117863] },
-  { class: ".place-h5", name: 'City Express Plus Mazatlán', coords: [23.273493, -106.453708] },
-  { class: ".place-h6", name: 'City Express Mazatlán', coords: [23.246601023180634, -106.43846403633331] },
-  { class: ".place-h7", name: 'City Express La Paz', coords: [24.186121392895867, -110.30139600191731] },
-  { class: ".place-h8", name: 'City Express Suites Los Cabos', coords: [22.901135598911257, -109.89454739586598] },
-  { class: ".place-h9", name: 'City Express Plus Los Cabos', coords: [22.901505763671747, -109.89432139030941] },
-  { class: ".place-h10", name: 'City Express Suites Tijuana Rio', coords: [32.52387645660811, -117.02111564574426] },
-  { class: ".place-h11", name: 'City Express Plus Tijuana', coords: [32.51851404996508, -117.01700797654065] },
-  { class: ".place-h12", name: 'City Express Tijuana Insurgentes', coords: [32.49490130570151, -116.92987813810277] },
-  { class: ".place-h13", name: 'City Express Tijuana Otay', coords: [32.53063898500523, -116.95563944399981] },
-  { class: ".place-h14", name: 'City Express Tijuana Rio', coords: [32.52472850349082, -117.01369199981993] },
-  { class: ".place-h15", name: 'City Express Rosarito', coords: [32.37550528692477, -117.06020424770938] },
-  { class: ".place-h16", name: 'City Express Plus Ensenada', coords: [31.88066834761152, -116.68331143608602] },
-  { class: ".place-h17", name: 'City Express Ensenada', coords: [31.851089917798554, -116.59607306840464] },
-  { class: ".place-h18", name: 'City Express Puebla Centro', coords: [19.04624752457034, -98.1890636475404] },
-  { class: ".place-h19", name: 'City Express Puebla Finsa', coords: [19.11262798467519, -98.2493071480656] },
-  { class: ".place-h20", name: 'City Express Junior Puebla Finsa', coords: [19.112072836241687, -98.25036077399636] },
-  { class: ".place-h21", name: 'City Express Junior Puebla Angelópolis', coords: [19.038445238667865, -98.22303787044719] },
-  { class: ".place-h22", name: 'City Express Veracruz', coords: [19.160470025580455, -96.1001392615565] },
-  { class: ".place-h23", name: 'City Express Junior Veracruz Aeropuerto', coords: [19.16094004878582, -96.20119055547339] },
-  { class: ".place-h24", name: 'City Express Xalapa', coords: [19.51539761163402, -96.87719050335063] },
-  { class: ".place-h25", name: 'City Express Tuxtla Gutiérrez', coords: [16.748481862732863, -93.14322071557028] },
-  { class: ".place-h26", name: 'City Express Junior Tuxtla Gutiérrez Poliforum', coords: [16.750540753636834, -93.07474994440628] },
-  { class: ".place-h27", name: 'City Express Tapachula', coords: [14.874709838385394, -92.28576122804074] },
-  { class: ".place-h28", name: 'City Express Comitán', coords: [16.21514771128128, -92.1151258512979] },
-  { class: ".place-h29", name: 'City Centro Oaxaca', coords: [17.068016534020916, -96.71515539836818] },
-  { class: ".place-h30", name: 'City Express Oaxaca', coords: [17.072674389687954, -96.72502454572613] },
-  { class: ".place-h31", name: 'City Express Villahermosa', coords: [17.989214774901686, -92.94830190338104] },
-  { class: ".place-h32", name: 'City Express Junior Villahermosa', coords: [17.989120140634046, -92.94810145972744] },
-  { class: ".place-h33", name: 'City Express Campeche', coords: [19.849694928919313, -90.53339583270623] },
-  { class: ".place-h34", name: 'City Express Plus Mérida', coords: [20.98380059388506, -89.61904717500967] },
-  { class: ".place-h35", name: 'City Express Mérida', coords: [21.020670579039912, -89.61886560744146] },
-  { class: ".place-h36", name: 'City Express Junior Merida Altabrisa', coords: [21.028237329791782, -89.57163977448214] },
-  { class: ".place-h37", name: 'City Express Plus Cancún Aeropuerto Riviera', coords: [20.98901692933984, -86.86326529670939] },
-  { class: ".place-h38", name: 'City Express Cancún', coords: [21.15061281164727, -86.82237648163172] },
-  { class: ".place-h39", name: 'City Express Junior Cancún', coords: [21.143589337088304, -86.82255077871051] },
-  { class: ".place-h40", name: 'City Express Suites Playa del Carmen', coords: [20.98862867101274, -86.8586411293809] },
-  { class: ".place-h41", name: 'City Express Playa del Carmen', coords: [20.62420388700023, -87.08835762390181] },
-  { class: ".place-h41-1", name: 'City Express Chetumal', coords: [18.521701654377868, -88.3241786634215] },
-  { class: ".place-h42", name: 'City Express Suites Querétaro', coords: [20.653790047026078, -100.4322079191971] },
-  { class: ".place-h43", name: 'City Express Querétaro', coords: [20.577899844867108, -100.38530201802467] },
-  { class: ".place-h44", name: 'City Express Queretaro Juríca', coords: [20.649337298660154, -100.43184446522952] },
-  { class: ".place-h45", name: 'City Express Plus Leon Centro de Convenciones', coords: [21.11675497950489, -101.65510684617068] },
-  { class: ".place-h46", name: 'City Express León', coords: [21.09945798776053, -101.62885496313424] },
-  { class: ".place-h47", name: 'City Express Celaya', coords: [20.551323481152004, -100.83986322284878] },
-  { class: ".place-h48", name: 'City Express Celaya Galerías', coords: [20.529118888725442, -100.77614360941224] },
-  { class: ".place-h49", name: 'City Express Irapuato', coords: [20.684416171828733, -101.37475192123175] },
-  { class: ".place-h50", name: 'City Express Irapuato Norte', coords: [20.719276983763066, -101.34456531224339] },
-  { class: ".place-h51", name: 'City Express Salamanca', coords: [20.585255637635292, -101.22166902528166] },
-  { class: ".place-h52", name: 'City Express Suites Silao Aeropuerto', coords: [20.95672663691956, -101.44286464987859] },
-  { class: ".place-h53", name: 'City Centro San Luis Potosí', coords: [22.15050003686416, -100.9767920075235] },
-  { class: ".place-h54", name: 'City Express Suites San Luis Potosí', coords: [22.13451770097291, -100.93266151545917] },
-  { class: ".place-h55", name: 'City Express Plus San Luis Potosi', coords: [22.130452860751276, -101.0282814730454] },
-  { class: ".place-h56", name: 'City Express San Luis Potosí Zona Industrial', coords: [22.13142294679292, -100.92390590320706] },
-  { class: ".place-h57", name: 'City Express Junior San Luis Potosí Carranza', coords: [22.149871112032297, -100.99823449483075] },
-  { class: ".place-h58", name: 'City Express Junior San Luis Potosí Zona Industrial', coords: [22.118474338946285, -100.90523323636027] },
-  { class: ".place-h59", name: 'City Express Chihuahua', coords: [28.664374245624636, -106.12828042454666] },
-  { class: ".place-h60", name: 'City Express Ciudad Juárez', coords: [31.730103264759435, -106.4106733041144] },
-  { class: ".place-h61", name: 'City Express Junior Ciudad Juárez', coords: [31.68964668107684, -106.39185940826489] },
+  { class: ".place-h0", icon: cityPlusIcon, name: 'City Express Plus Guadalajara Expo', coords: [20.65195856855506, -103.39705115596848] },
+  { class: ".place-h1", icon: cityPlusIcon, name: 'City Express Plus Providencia', coords: [20.698773994535614, -103.37340650385191] },
+  { class: ".place-h2", icon: cityPlusIcon, name: 'City Express Plus Palomar', coords: [20.588784049984586, -103.44408660385436] },
+  { class: ".place-h3", icon: cityExpressIcon, name: 'City Express Guadalajara Aeropuerto', coords: [20.574943364376754, -103.29341573689527] },
+  { class: ".place-h4", icon: cityPlusIcon, name: 'City Express Plus Puerto Vallarta', coords: [20.654018544662325, -105.23938750117863] },
+  { class: ".place-h5", icon: cityPlusIcon, name: 'City Express Plus Mazatlán', coords: [23.273493, -106.453708] },
+  { class: ".place-h6", icon: cityExpressIcon, name: 'City Express Mazatlán', coords: [23.246601023180634, -106.43846403633331] },
+  { class: ".place-h7", icon: cityExpressIcon, name: 'City Express La Paz', coords: [24.186121392895867, -110.30139600191731] },
+  { class: ".place-h8", icon: citySuitesIcon, name: 'City Express Suites Los Cabos', coords: [22.901135598911257, -109.89454739586598] },
+  { class: ".place-h9", icon: cityPlusIcon, name: 'City Express Plus Los Cabos', coords: [22.901505763671747, -109.89432139030941] },
+  { class: ".place-h10", icon: citySuitesIcon, name: 'City Express Suites Tijuana Rio', coords: [32.52387645660811, -117.02111564574426] },
+  { class: ".place-h11", icon: cityPlusIcon, name: 'City Express Plus Tijuana', coords: [32.51851404996508, -117.01700797654065] },
+  { class: ".place-h12", icon: cityExpressIcon, name: 'City Express Tijuana Insurgentes', coords: [32.49490130570151, -116.92987813810277] },
+  { class: ".place-h13", icon: cityExpressIcon, name: 'City Express Tijuana Otay', coords: [32.53063898500523, -116.95563944399981] },
+  { class: ".place-h14", icon: cityExpressIcon, name: 'City Express Tijuana Rio', coords: [32.52472850349082, -117.01369199981993] },
+  { class: ".place-h15", icon: cityExpressIcon, name: 'City Express Rosarito', coords: [32.37550528692477, -117.06020424770938] },
+  { class: ".place-h16", icon: cityPlusIcon, name: 'City Express Plus Ensenada', coords: [31.88066834761152, -116.68331143608602] },
+  { class: ".place-h17", icon: cityExpressIcon, name: 'City Express Ensenada', coords: [31.851089917798554, -116.59607306840464] },
+  { class: ".place-h18", icon: cityExpressIcon, name: 'City Express Puebla Centro', coords: [19.04624752457034, -98.1890636475404] },
+  { class: ".place-h19", icon: cityExpressIcon, name: 'City Express Puebla Finsa', coords: [19.11262798467519, -98.2493071480656] },
+  { class: ".place-h20", icon: cityJuniorIcon, name: 'City Express Junior Puebla Finsa', coords: [19.112072836241687, -98.25036077399636] },
+  { class: ".place-h21", icon: cityJuniorIcon, name: 'City Express Junior Puebla Angelópolis', coords: [19.038445238667865, -98.22303787044719] },
+  { class: ".place-h22", icon: cityExpressIcon, name: 'City Express Veracruz', coords: [19.160470025580455, -96.1001392615565] },
+  { class: ".place-h23", icon: cityJuniorIcon, name: 'City Express Junior Veracruz Aeropuerto', coords: [19.16094004878582, -96.20119055547339] },
+  { class: ".place-h24", icon: cityExpressIcon, name: 'City Express Xalapa', coords: [19.51539761163402, -96.87719050335063] },
+  { class: ".place-h25", icon: cityExpressIcon, name: 'City Express Tuxtla Gutiérrez', coords: [16.748481862732863, -93.14322071557028] },
+  { class: ".place-h26", icon: cityJuniorIcon, name: 'City Express Junior Tuxtla Gutiérrez Poliforum', coords: [16.750540753636834, -93.07474994440628] },
+  { class: ".place-h27", icon: cityExpressIcon, name: 'City Express Tapachula', coords: [14.874709838385394, -92.28576122804074] },
+  { class: ".place-h28", icon: cityExpressIcon, name: 'City Express Comitán', coords: [16.21514771128128, -92.1151258512979] },
+  { class: ".place-h29", icon: cityCentroIcon, name: 'City Centro Oaxaca', coords: [17.068016534020916, -96.71515539836818] },
+  { class: ".place-h30", icon: cityExpressIcon, name: 'City Express Oaxaca', coords: [17.072674389687954, -96.72502454572613] },
+  { class: ".place-h31", icon: cityExpressIcon, name: 'City Express Villahermosa', coords: [17.989214774901686, -92.94830190338104] },
+  { class: ".place-h32", icon: cityJuniorIcon, name: 'City Express Junior Villahermosa', coords: [17.989120140634046, -92.94810145972744] },
+  { class: ".place-h33", icon: cityExpressIcon, name: 'City Express Campeche', coords: [19.849694928919313, -90.53339583270623] },
+  { class: ".place-h34", icon: cityPlusIcon, name: 'City Express Plus Mérida', coords: [20.98380059388506, -89.61904717500967] },
+  { class: ".place-h35", icon: cityExpressIcon, name: 'City Express Mérida', coords: [21.020670579039912, -89.61886560744146] },
+  { class: ".place-h36", icon: cityJuniorIcon, name: 'City Express Junior Merida Altabrisa', coords: [21.028237329791782, -89.57163977448214] },
+  { class: ".place-h37", icon: cityPlusIcon, name: 'City Express Plus Cancún Aeropuerto Riviera', coords: [20.98901692933984, -86.86326529670939] },
+  { class: ".place-h38", icon: cityExpressIcon, name: 'City Express Cancún', coords: [21.15061281164727, -86.82237648163172] },
+  { class: ".place-h39", icon: cityJuniorIcon, name: 'City Express Junior Cancún', coords: [21.143589337088304, -86.82255077871051] },
+  { class: ".place-h40", icon: citySuitesIcon, name: 'City Express Suites Playa del Carmen', coords: [20.98862867101274, -86.8586411293809] },
+  { class: ".place-h41", icon: cityExpressIcon, name: 'City Express Playa del Carmen', coords: [20.62420388700023, -87.08835762390181] },
+  { class: ".place-h41-1", icon: cityExpressIcon, name: 'City Express Chetumal', coords: [18.521701654377868, -88.3241786634215] },
+  { class: ".place-h42", icon: citySuitesIcon, name: 'City Express Suites Querétaro', coords: [20.653790047026078, -100.4322079191971] },
+  { class: ".place-h43", icon: cityExpressIcon, name: 'City Express Querétaro', coords: [20.577899844867108, -100.38530201802467] },
+  { class: ".place-h44", icon: cityExpressIcon, name: 'City Express Queretaro Juríca', coords: [20.649337298660154, -100.43184446522952] },
+  { class: ".place-h45", icon: cityPlusIcon, name: 'City Express Plus Leon Centro de Convenciones', coords: [21.11675497950489, -101.65510684617068] },
+  { class: ".place-h46", icon: cityExpressIcon, name: 'City Express León', coords: [21.09945798776053, -101.62885496313424] },
+  { class: ".place-h47", icon: cityExpressIcon, name: 'City Express Celaya', coords: [20.551323481152004, -100.83986322284878] },
+  { class: ".place-h48", icon: cityExpressIcon, name: 'City Express Celaya Galerías', coords: [20.529118888725442, -100.77614360941224] },
+  { class: ".place-h49", icon: cityExpressIcon, name: 'City Express Irapuato', coords: [20.684416171828733, -101.37475192123175] },
+  { class: ".place-h50", icon: cityExpressIcon, name: 'City Express Irapuato Norte', coords: [20.719276983763066, -101.34456531224339] },
+  { class: ".place-h51", icon: cityExpressIcon, name: 'City Express Salamanca', coords: [20.585255637635292, -101.22166902528166] },
+  { class: ".place-h52", icon: citySuitesIcon, name: 'City Express Suites Silao Aeropuerto', coords: [20.95672663691956, -101.44286464987859] },
+  { class: ".place-h53", icon: cityCentroIcon, name: 'City Centro San Luis Potosí', coords: [22.15050003686416, -100.9767920075235] },
+  { class: ".place-h54", icon: citySuitesIcon, name: 'City Express Suites San Luis Potosí', coords: [22.13451770097291, -100.93266151545917] },
+  { class: ".place-h55", icon: cityPlusIcon, name: 'City Express Plus San Luis Potosi', coords: [22.130452860751276, -101.0282814730454] },
+  { class: ".place-h56", icon: cityExpressIcon, name: 'City Express San Luis Potosí Zona Industrial', coords: [22.13142294679292, -100.92390590320706] },
+  { class: ".place-h57", icon: cityJuniorIcon, name: 'City Express Junior San Luis Potosí Carranza', coords: [22.149871112032297, -100.99823449483075] },
+  { class: ".place-h58", icon: cityJuniorIcon, name: 'City Express Junior San Luis Potosí Zona Industrial', coords: [22.118474338946285, -100.90523323636027] },
+  { class: ".place-h59", icon: cityExpressIcon, name: 'City Express Chihuahua', coords: [28.664374245624636, -106.12828042454666] },
+  { class: ".place-h60", icon: cityExpressIcon, name: 'City Express Ciudad Juárez', coords: [31.730103264759435, -106.4106733041144] },
+  { class: ".place-h61", icon: cityJuniorIcon, name: 'City Express Junior Ciudad Juárez', coords: [31.68964668107684, -106.39185940826489] },
 ];
 
 
@@ -279,28 +324,10 @@ var cdJuarezCoords = locations[33].coords;
 var desc = document.querySelector('.desc');
 
 
-
-// Custom icons
-// Custom icons - Hotels
-var cityExpressIcon = L.icon({
-    iconUrl: 'logos/city-express.svg',
-    iconSize: [60, 20],
-    iconAnchor: [30, 0],
-    popupAnchor: [0, 0],
-});
-
-// Custom icons - Attractions
-var attractionIcon = L.icon({
-    iconUrl: 'attraction.svg',
-    iconSize: [30, 40],
-    iconAnchor: [15, 0],
-    popupAnchor: [0, 0],
-});
-
 // Create hotel markers
 var markersHotels = hotelLocations.map(function(hotelLocation) {
   var marker = L.marker(hotelLocation.coords, {
-    icon: cityExpressIcon,
+    icon: hotelLocation.icon,
   }).addTo(map);
   marker.bindPopup('<b>' + hotelLocation.name + '</b>');
   marker.on('click', function() {
