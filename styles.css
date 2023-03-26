@@ -204,7 +204,7 @@ ul {
     .info-content::after {
         content: '';
         display: block;
-        height: 8rem;
+        height: 9rem;
     }
 
     #map {
@@ -233,6 +233,7 @@ ul {
   width: 80%;
   max-width: 700px;
   height: 80vh;
+  object-fit: contain;
 }
 
 .close {
