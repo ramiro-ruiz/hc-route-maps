@@ -204,7 +204,7 @@ ul {
     .info-content::after {
         content: '';
         display: block;
-        height: 5rem;
+        height: 8rem;
     }
 
     #map {
