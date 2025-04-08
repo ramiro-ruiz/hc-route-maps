@@ -510,3 +510,19 @@ ul {
   text-decoration: none;
   cursor: pointer;
 }
+
+.region-list h2 {
+  color: #575757;
+  font-size: 0.85rem;
+  margin-bottom: 0rem;
+  border-bottom: 0.1rem solid #d1d1d1;
+}
+
+.region-list ul {
+  margin-top: 0.15em;
+  margin-bottom: 1em;
+}
+
+.region-list h2:first-of-type {
+  margin-top: 0.5em;
+}

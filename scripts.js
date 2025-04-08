@@ -46,6 +46,18 @@ const ICON_CONFIGS = {
     iconAnchor: [20, 0],
     popupAnchor: [0, 0],
   },
+  hotssonLeon: {
+    iconUrl: "logos/hs-hotsson-leon.svg",
+    iconSize: [50, 50],
+    iconAnchor: [20, 0],
+    popupAnchor: [0, 0],
+  },
+  hotssonQueretaro: {
+    iconUrl: "logos/hs-hotsson-queretaro.svg",
+    iconSize: [50, 50],
+    iconAnchor: [20, 0],
+    popupAnchor: [0, 0],
+  },
   citySuites: {
     iconUrl: "logos/city-suites.svg",
     iconSize: [100, 40],
@@ -766,20 +778,20 @@ const hotelLocations = [
       "imgs/hotels/CPMZT-5.jpg",
     ],
   },
-  {
-    class: ".place-h6",
-    icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Mazatlán",
-    address:
-      "Av. Del Toreo No. 91, Fracc. El Toreo, Mazatlán, Sinaloa, México. C.P. 82120",
-    coords: [23.246601023180634, -106.43846403633331],
-    imageUrls: [
-      "imgs/hotels/CEMZT-1.jpg",
-      "imgs/hotels/CEMZT-2.jpg",
-      "imgs/hotels/CEMZT-3.jpg",
-      "imgs/hotels/CEMZT-4.jpg",
-    ],
-  },
+  // {
+  //   class: ".place-h6",
+  //   icon: ICON_CONFIGS.cityExpress,
+  //   name: "City Express Mazatlán",
+  //   address:
+  //     "Av. Del Toreo No. 91, Fracc. El Toreo, Mazatlán, Sinaloa, México. C.P. 82120",
+  //   coords: [23.246601023180634, -106.43846403633331],
+  //   imageUrls: [
+  //     "imgs/hotels/CEMZT-1.jpg",
+  //     "imgs/hotels/CEMZT-2.jpg",
+  //     "imgs/hotels/CEMZT-3.jpg",
+  //     "imgs/hotels/CEMZT-4.jpg",
+  //   ],
+  // },
   {
     class: ".place-h7",
     icon: ICON_CONFIGS.cityExpress,
@@ -1210,7 +1222,7 @@ const hotelLocations = [
   {
     class: ".place-h38",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Cancún",
+    name: "City Express By Marriott Cancún",
     address:
       "Av. Nichupté Supermanzana 8, Manzana 1 Lote 4, Col. Centro, Cancún, Quintana Roo, México. C.P. 77500 Tel.: 998 881 1930",
     coords: [21.15061281164727, -86.82237648163172],
@@ -1464,22 +1476,22 @@ const hotelLocations = [
       "imgs/hotels/CSSLP-4.jpg",
     ],
   },
-  {
-    class: ".place-h55",
-    icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus San Luis Potosí",
-    address:
-      "Andador Plaza Lomas Lote 52, Lomas del tecnológico, San Luis Potosí, San Luis Potosí, México. C.P. 78215 Tel.: 800 248 9003",
-    coords: [22.130452860751276, -101.0282814730454],
-    imageUrls: [
-      "imgs/hotels/CPSLP-1.jpg",
-      "imgs/hotels/CPSLP-2.jpg",
-      "imgs/hotels/CPSLP-3.jpg",
-      "imgs/hotels/CPSLP-4.jpg",
-      "imgs/hotels/CPSLP-5.jpg",
-      "imgs/hotels/CPSLP-6.jpg",
-    ],
-  },
+  // {
+  //   class: ".place-h55",
+  //   icon: ICON_CONFIGS.cityPlus,
+  //   name: "City Express Plus San Luis Potosí",
+  //   address:
+  //     "Andador Plaza Lomas Lote 52, Lomas del tecnológico, San Luis Potosí, San Luis Potosí, México. C.P. 78215 Tel.: 800 248 9003",
+  //   coords: [22.130452860751276, -101.0282814730454],
+  //   imageUrls: [
+  //     "imgs/hotels/CPSLP-1.jpg",
+  //     "imgs/hotels/CPSLP-2.jpg",
+  //     "imgs/hotels/CPSLP-3.jpg",
+  //     "imgs/hotels/CPSLP-4.jpg",
+  //     "imgs/hotels/CPSLP-5.jpg",
+  //     "imgs/hotels/CPSLP-6.jpg",
+  //   ],
+  // },
   {
     class: ".place-h56",
     icon: ICON_CONFIGS.cityExpress,
@@ -1564,22 +1576,7 @@ const hotelLocations = [
       "imgs/hotels/CJCJS-5.jpg",
     ],
   },
-  {
-    class: ".place-h62",
-    iconType: "cityCentro",
-    name: "City Centro By Marriott Ciudad de México",
-    address: "República de Uruguay No. 45 Centro Histórico CDMX, Cuauhtémoc.",
-    coords: [19.432769, -99.137461],
-    imageUrls: [],
-  },
-  {
-    class: ".place-h63",
-    iconType: "cityPlus",
-    name: "City Express Plus By Marriott Reforma el Angel",
-    address: "Ave. de la Reforma No. 334 Col. Juárez CDMX",
-    coords: [19.427672, -99.157935],
-    imageUrls: [],
-  },
+
   {
     class: ".place-h64",
     iconType: "cityExpress",
@@ -1613,16 +1610,73 @@ const hotelLocations = [
     coords: [17.072674, -96.725024],
     imageUrls: [],
   },
+  {
+    class: ".place-h68",
+    icon: ICON_CONFIGS.cityCentro,
+    name: "City Centro Ciudad de México",
+    address: "República de Uruguay No. 45 Centro Histórico CDMX, Cuauhtémoc.",
+    coords: [19.430637819084087, -99.13773885429049],
+    imageUrls: [],
+  },
+  {
+    class: ".place-h69",
+    icon: ICON_CONFIGS.cityPlus,
+    name: "City Express Plus By Marriott Reforma el Angel",
+    address: "Ave. de la Reforma No. 334 Col. Juárez CDMX",
+    coords: [19.426624516216542, -99.16651962480681],
+    imageUrls: [],
+  },
+  {
+    class: ".place-h70",
+    icon: ICON_CONFIGS.hotssonQueretaro,
+    name: "Hotel HS Hotsson Querétaro",
+    address: "Boulevard Bernardo Quintana 8300, Centro Sur Querétaro",
+    coords: [20.5547, -100.3725],
+    imageUrls: [],
+  },
+  {
+    class: ".place-h71",
+    icon: ICON_CONFIGS.hotssonLeon,
+    name: "Hotel HS Hotsson León",
+    address: "Ote. 1102 Col. Los Gavilanes Leon, GTO.",
+    coords: [21.1167, -101.6833],
+    imageUrls: [],
+  },
 ];
 
 // Route definitions
 const routes = [
+  // Centro
+  {
+    id: "routeCQL",
+    name: "Ciudad de México - Querétaro - León",
+    color: "#4B0082",
+    weight: 6,
+    offset: 0.01,
+    locations: ["Ciudad de México", "Queretaro", "León"],
+  },
+  {
+    id: "routeQLS",
+    name: "Queretaro - León - San Luis Potosí",
+    color: "#96FF43",
+    weight: 6,
+    locations: ["Queretaro", "León", "San Luis Potosí"],
+  },
+  // Occidente
   {
     id: "routeGP",
     name: "Guadalajara - Puerto Vallarta",
     color: "purple",
     weight: 6,
     locations: ["Guadalajara", "Puerto Vallarta"],
+  },
+  // Norte
+  {
+    id: "routeCSC",
+    name: "Chihuahua - Sierra Tarahumara - Ciudad Juarez",
+    color: "#E72525",
+    weight: 6,
+    locations: ["Chihuahua", "Sierra Tarahumara", "Ciudad Juárez"],
   },
   {
     id: "routeMPC",
@@ -1637,6 +1691,14 @@ const routes = [
     color: "green",
     weight: 6,
     locations: ["Tijuana", "Rosarito", "Ensenada"],
+  },
+  // Sur
+  {
+    id: "routeCPO",
+    name: "Ciudad de México - Puebla - Oaxaca",
+    color: "#FF6B00",
+    weight: 6,
+    locations: ["Ciudad de México", "Puebla", "Oaxaca"],
   },
   {
     id: "routePV",
@@ -1745,6 +1807,8 @@ const icons = {
   cityPlus: L.icon(ICON_CONFIGS.cityPlus),
   citySuites: L.icon(ICON_CONFIGS.citySuites),
   attraction: L.icon(ICON_CONFIGS.attraction),
+  hotssonQueretaro: L.icon(ICON_CONFIGS.hotssonQueretaro),
+  hotssonLeon: L.icon(ICON_CONFIGS.hotssonLeon),
 };
 
 // =============================================
@@ -1766,7 +1830,11 @@ const hotelMarkers = {};
 const hotelMarkerObjects = hotelLocations.map((hotel, index) => {
   const marker = L.marker(hotel.coords, {
     icon: icons[
-      hotel.icon?.iconUrl.includes("plus")
+      hotel.icon?.iconUrl.includes("hotsson-queretaro")
+        ? "hotssonQueretaro"
+        : hotel.icon?.iconUrl.includes("hotsson-leon")
+        ? "hotssonLeon"
+        : hotel.icon?.iconUrl.includes("plus")
         ? "cityPlus"
         : hotel.icon?.iconUrl.includes("centro")
         ? "cityCentro"
