@@ -126,7 +126,7 @@ const locations = [
     name: "San Luis Potosí",
     coords: [22.162269979311255, -100.99110196668701],
   },
-  { name: "Chihuahua", coords: [28.635910880027733, -106.0714974007772] },
+  { name: "Los Mochis", coords: [25.791697979600045, -108.99075705519624] },
   {
     name: "Sierra Tarahumara",
     coords: [27.000989692478196, -107.24639656957096],
@@ -1536,15 +1536,10 @@ const hotelLocations = [
   {
     class: ".place-h59",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express by Marriot Chihuahua",
-    address:
-      "Avenida de la Juventud 6108, Col. Desarrollo Comercial El Saucito, Chihuahua, Chihuahua, México. C.P. 31110 Tel.: 614 158 4000",
-    coords: [28.664374245624636, -106.12828042454666],
-    imageUrls: [
-      "imgs/hotels/CECUU-1.jpg",
-      "imgs/hotels/CECUU-2.jpg",
-      "imgs/hotels/CECUU-3.jpg",
-    ],
+    name: "City Express by Marriott Los Mochis",
+    address: "Blvd Centenario 1135, Las Haciendas, 81277 Los Mochis, Sinaloa",
+    coords: [25.785582606749823, -109.00545012643168],
+    imageUrls: [],
   },
   {
     class: ".place-h60",
@@ -1632,7 +1627,12 @@ const hotelLocations = [
     name: "Hotel HS Hotsson Querétaro",
     address: "Boulevard Bernardo Quintana 8300, Centro Sur Querétaro",
     coords: [20.5547, -100.3725],
-    imageUrls: [],
+    imageUrls: [
+      "imgs/hotels/hh-qto1.jpg",
+      "imgs/hotels/hh-qto2.jpg",
+      "imgs/hotels/hh-qto3.jpg",
+      "imgs/hotels/hh-qto4.jpg",
+    ],
   },
   {
     class: ".place-h71",
@@ -1640,7 +1640,13 @@ const hotelLocations = [
     name: "Hotel HS Hotsson León",
     address: "Ote. 1102 Col. Los Gavilanes Leon, GTO.",
     coords: [21.1167, -101.6833],
-    imageUrls: [],
+    imageUrls: [
+      "imgs/hotels/hh-leon1.jpg",
+      "imgs/hotels/hh-leon2.jpg",
+      "imgs/hotels/hh-leon3.jpg",
+      "imgs/hotels/hh-leon4.jpg",
+      "imgs/hotels/hh-leon5.jpg",
+    ],
   },
 ];
 
@@ -1673,10 +1679,10 @@ const routes = [
   // Norte
   {
     id: "routeCSC",
-    name: "Chihuahua - Sierra Tarahumara - Ciudad Juarez",
+    name: "Los Mochis - Sierra Tarahumara - Ciudad Juarez",
     color: "#E72525",
     weight: 6,
-    locations: ["Chihuahua", "Sierra Tarahumara", "Ciudad Juárez"],
+    locations: ["Los Mochis", "Sierra Tarahumara", "Ciudad Juárez"],
   },
   {
     id: "routeMPC",
@@ -1754,10 +1760,10 @@ const routes = [
   },
   {
     id: "routeCSC",
-    name: "Chihuahua - Sierra Tarahumara - Ciudad Juarez",
+    name: "Los Mochis - Sierra Tarahumara - Ciudad Juarez",
     color: "#E72525",
     weight: 6,
-    locations: ["Chihuahua", "Sierra Tarahumara", "Ciudad Juárez"],
+    locations: ["Los Mochis", "Sierra Tarahumara", "Ciudad Juárez"],
   },
   {
     id: "routeCPO",
