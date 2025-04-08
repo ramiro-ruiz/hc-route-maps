@@ -696,7 +696,7 @@ const hotelLocations = [
   {
     class: ".place-h0",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Guadalajara Expo",
+    name: "City Express Plus by Marriot Guadalajara Expo",
     coords: [20.65195856855506, -103.39705115596848],
     imageUrls: [
       "imgs/hotels/cep-gdl-expo-1.jpg",
@@ -708,7 +708,7 @@ const hotelLocations = [
   {
     class: ".place-h1",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Providencia",
+    name: "City Express Plus by Marriot Providencia",
     address:
       "Av. Las Américas 1520, Country Club, Guadalajara, Jalisco, México. C.P. 44610",
     coords: [20.698773994535614, -103.37340650385191],
@@ -724,7 +724,7 @@ const hotelLocations = [
   {
     class: ".place-h2",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Palomar",
+    name: "City Express Plus by Marriot Palomar",
     address:
       "Av. Adolfo López Mateos Sur No. 1450, Col. Las Villas, Tlajomulco de Zuñiga, Guadalajara, Jalisco, México. C.P. 45643",
     coords: [20.588784049984586, -103.44408660385436],
@@ -738,7 +738,7 @@ const hotelLocations = [
   {
     class: ".place-h3",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Guadalajara Aeropuerto",
+    name: "City Express by Marriot Guadalajara Aeropuerto",
     address:
       "Carretera Guadalajara a Chapala No. 7610, Col. Guadalupe Montenegro Del. Las Pintitas El Salto Jalisco, Guadalajara, Jalisco, México. C.P. 45693",
     coords: [20.565285125094793, -103.31036540329697],
@@ -752,7 +752,7 @@ const hotelLocations = [
   {
     class: ".place-h4",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Puerto Vallarta",
+    name: "City Express Plus by Marriot Puerto Vallarta",
     address:
       "Blvd. Francisco Medina Ascencio No. 2860, Zona Hotelera Norte, Puerto Vallarta, Jalisco, México. C.P. 48333",
     coords: [20.654018544662325, -105.23938750117863],
@@ -768,7 +768,7 @@ const hotelLocations = [
   {
     class: ".place-h5",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Mazatlán",
+    name: "City Express Plus by Marriot  Mazatlán",
     coords: [23.273493, -106.453708],
     imageUrls: [
       "imgs/hotels/CPMZT-1.jpg",
@@ -795,7 +795,7 @@ const hotelLocations = [
   {
     class: ".place-h7",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express La Paz",
+    name: "City Express by Marriot La Paz",
     address:
       "Paseo Álvaro Obregón Km. 2.5, Col. Marina Palmira, Baja California, Baja California, México. C.P. 23010",
     coords: [24.186121392895867, -110.30139600191731],
@@ -810,7 +810,7 @@ const hotelLocations = [
   {
     class: ".place-h8",
     icon: ICON_CONFIGS.citySuites,
-    name: "City Express Suites Los Cabos",
+    name: "City Express Suites by Marriot Los Cabos",
     address:
       "Carretera Transpeninsular Km 3 No.100 Corredor Turístico de Cabo San Lucas - San José del Cabo, El Tezal, Cabos San Lucas, Baja California Sur, México. C.P. 23454",
     coords: [22.901135598911257, -109.89454739586598],
@@ -825,7 +825,7 @@ const hotelLocations = [
   {
     class: ".place-h9",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Los Cabos",
+    name: "City Express Plus by Marriot Los Cabos",
     address:
       "Carretera Transpeninsular Km 3 No.100 Corredor Turístico de Cabo San Lucas - San José del Cabo, Fraccionamiento El Tezal, Cabos San Lucas, Baja California Sur, México. C.P. 23454",
     coords: [22.901505763671747, -109.89432139030941],
@@ -834,7 +834,7 @@ const hotelLocations = [
   {
     class: ".place-h10",
     icon: ICON_CONFIGS.citySuites,
-    name: "City Express Suites Tijuana Rio",
+    name: "City Express Suites by Marriot Tijuana Rio",
     address:
       "Blvd. General Rodolfo Sánchez Taboada No.9589 Int. A, Col. Marrón, Tijuana, Baja California, México. C.P. 22015",
     coords: [32.52387645660811, -117.02111564574426],
@@ -849,7 +849,7 @@ const hotelLocations = [
   {
     class: ".place-h11",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Tijuana",
+    name: "City Express Plus by Marriot Tijuana",
     address:
       "Blvd. Agua Caliente 9985, Col. Calete de la Delegación Zona Centro, Tijuana, Baja California, México. C.P. 22044",
     coords: [32.51851404996508, -117.01700797654065],
@@ -866,7 +866,7 @@ const hotelLocations = [
   {
     class: ".place-h12",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Tijuana Insurgentes",
+    name: "City Express by Marriot Tijuana Insurgentes",
     address: "Av de los Insurgentes 5950, El Lago, 22210 Tijuana, B.C.",
     coords: [32.49490130570151, -116.92987813810277],
     imageUrls: [
@@ -878,7 +878,7 @@ const hotelLocations = [
   {
     class: ".place-h13",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Tijuana Otay",
+    name: "City Express by Marriot Tijuana Otay",
     address:
       "General Lázaro Cárdenas Número 16002 A Prolongación sección Universidad Prolongación sección, Universidad, 22416 Tijuana, B.C.",
     coords: [32.53063898500523, -116.95563944399981],
@@ -893,7 +893,7 @@ const hotelLocations = [
   {
     class: ".place-h14",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Tijuana Rio",
+    name: "City Express by Marriot Tijuana Rio",
     address: "Dr. Atl 2282, Zona Urbana Rio Tijuana, 22010 Tijuana, B.C.",
     coords: [32.52472850349082, -117.01369199981993],
     imageUrls: [
@@ -905,7 +905,7 @@ const hotelLocations = [
   {
     class: ".place-h15",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Rosarito",
+    name: "City Express by Marriot Rosarito",
     address:
       "Carretera libre Tijuana - Ensenada 362, Reforma, 22710 Rosarito, B.C.",
     coords: [32.37550528692477, -117.06020424770938],
@@ -919,7 +919,7 @@ const hotelLocations = [
   {
     class: ".place-h16",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Ensenada",
+    name: "City Express Plus by Marriot Ensenada",
     address:
       "Carretera Tijuana-Ensenada km 104 S/N El Sauzal, 22760 Ensenada, B.C.",
     coords: [31.88066834761152, -116.68331143608602],
@@ -934,7 +934,7 @@ const hotelLocations = [
   {
     class: ".place-h17",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Ensenada",
+    name: "City Express by Marriot Ensenada",
     address:
       "Boulevard Costero B1-A2, Manzana 29, Carlos Pacheco, 22890 Ensenada, B.C.",
     coords: [31.851089917798554, -116.59607306840464],
@@ -950,7 +950,7 @@ const hotelLocations = [
   {
     class: ".place-h18",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Puebla Centro",
+    name: "City Express by Marriot Puebla Centro",
     address:
       "Calle 10 Norte No. 1406, Col. El Alto, Puebla, Puebla, México, C.P. 72000",
     coords: [19.04624752457034, -98.1890636475404],
@@ -965,7 +965,7 @@ const hotelLocations = [
   {
     class: ".place-h19",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Puebla Finsa",
+    name: "City Express by Marriot Puebla Finsa",
     address: "Lateral Sur Autopista Mexico Puebla km 117, 11000 Puebla, México",
     coords: [19.11262798467519, -98.2493071480656],
     imageUrls: ["imgs/hotels/CEPF-1.jpg", "imgs/hotels/CEPF-2.jpg"],
@@ -973,7 +973,7 @@ const hotelLocations = [
   {
     class: ".place-h20",
     icon: ICON_CONFIGS.cityJunior,
-    name: "City Express Junior Puebla Finsa",
+    name: "City Express by Marriot Junior Puebla Finsa",
     address:
       "Calle Guerrero No. 117 Perteneciente a la Junta Auxiliar, Sanctorum, 72730 Puebla, México",
     coords: [19.112072836241687, -98.25036077399636],
@@ -981,7 +981,7 @@ const hotelLocations = [
   {
     class: ".place-h21",
     icon: ICON_CONFIGS.cityJunior,
-    name: "City Express Junior Puebla Angelópolis",
+    name: "City Express by Marriot Junior Puebla Angelópolis",
     address:
       "Cto Juan Pablo II 1743, Reserva Territorial Atlixcáyotl, La Noria, 72410 Puebla, México",
     coords: [19.038445238667865, -98.22303787044719],
@@ -989,7 +989,7 @@ const hotelLocations = [
   {
     class: ".place-h22",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Veracruz",
+    name: "City Express by Marriot Veracruz",
     address: "Blvd. Manuel Ávila Camacho 2374, Costa de Oro, 94299 Veracruz",
     coords: [19.160470025580455, -96.1001392615565],
     imageUrls: [
@@ -1003,7 +1003,7 @@ const hotelLocations = [
   {
     class: ".place-h23",
     icon: ICON_CONFIGS.cityJunior,
-    name: "City Express Junior Veracruz Aeropuerto",
+    name: "City Express by Marriot Junior Veracruz Aeropuerto",
     address:
       "Calzada Manuel de Jesús Clouthier 6241 Valente Díaz, Calzada Manuel de Jesús Clouthier 6241, Valente Díaz, 91725 Veracruz",
     coords: [19.16094004878582, -96.20119055547339],
@@ -1016,7 +1016,7 @@ const hotelLocations = [
   {
     class: ".place-h24",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Xalapa",
+    name: "City Express by Marriot Xalapa",
     address:
       "Blvrd Cristobal Colon 391, Jardines de las Animas, 91190 Xalapa-Enríquez, Veracruz",
     coords: [19.51539761163402, -96.87719050335063],
@@ -1031,7 +1031,7 @@ const hotelLocations = [
   {
     class: ".place-h25",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Tuxtla Gutiérrez",
+    name: "City Express by Marriot Tuxtla Gutiérrez",
     address:
       "Libramiento Sur-Poniente No. 2950, Col. Santa Elena, Tuxtla Gutiérrez, Chiapas, México. C.P. 29060 Tel.: 961 617 0090",
     coords: [16.748481862732863, -93.14322071557028],
@@ -1058,7 +1058,7 @@ const hotelLocations = [
   {
     class: ".place-h27",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Tapachula",
+    name: "City Express by Marriot Tapachula",
     address:
       "Calzada de Guadalupe 236, Vallejo, Gustavo A. Madero, Ciudad de México, México. C.P. 07870 Tel.: 55 8851 8140",
     coords: [14.874709838385394, -92.28576122804074],
@@ -1075,7 +1075,7 @@ const hotelLocations = [
   {
     class: ".place-h28",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Comitán",
+    name: "City Express by Marriot Comitán",
     address:
       "Blvd. De las Federaciones Km. 1260 No. 4023, Barrio de Chichimá Acapetahua, Comitán de Domínguez, Chiapas, México. C.P. 30039 Tel.: 963 632 9930",
     coords: [16.21514771128128, -92.1151258512979],
@@ -1089,7 +1089,7 @@ const hotelLocations = [
   {
     class: ".place-h29",
     icon: ICON_CONFIGS.cityCentro,
-    name: "City Centro Oaxaca",
+    name: "City Centro by Marriot Oaxaca",
     address:
       "Aldama No. 410, Barrio de Jalatlaco, Oaxaca de Juárez, Oaxaca, México. C.P. 68080 Tel.: 951 502 2270",
     coords: [17.068016534020916, -96.71515539836818],
@@ -1107,7 +1107,7 @@ const hotelLocations = [
   {
     class: ".place-h30",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Oaxaca",
+    name: "City Express by Marriot Oaxaca",
     address:
       "Calzada Niños Heroes de Chapultepec No. 300, Col. Centro, Oaxaca de Juárez, Oaxaca, México. C.P. 68000 Tel.: 951 502 3500",
     coords: [17.072674389687954, -96.72502454572613],
@@ -1121,7 +1121,7 @@ const hotelLocations = [
   {
     class: ".place-h31",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Villahermosa",
+    name: "City Express by Marriot Villahermosa",
     address:
       "Av. Adolfo Ruiz Cortinez Poniente 1803-A, Col. Atasta, Villahermosa, Tabasco, México. C.P. 86100 Tel.: 993 310 9310",
     coords: [17.989214774901686, -92.94830190338104],
@@ -1134,7 +1134,7 @@ const hotelLocations = [
   {
     class: ".place-h32",
     icon: ICON_CONFIGS.cityJunior,
-    name: "City Express Junior Villahermosa",
+    name: "City Express Junior by Marriot Villahermosa",
     address:
       "Avenida Adolfo Ruiz Cortines No.2103, Atasta de Serra, Villahermosa, Tabasco, México. C.P. 86100 Tel.: 993 310 4351",
     coords: [17.989120140634046, -92.94810145972744],
@@ -1148,7 +1148,7 @@ const hotelLocations = [
   {
     class: ".place-h33",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Campeche",
+    name: "City Express by Marriot Campeche",
     address:
       "Av. Adolfo Ruiz Cortinez No. 12, Sector Fundadores, Área Ah-Kim-Pech, San Francisco de Campeche, Campeche, México. C.P. 24028 Tel.: 981 127 3760",
     coords: [19.849694928919313, -90.53339583270623],
@@ -1162,7 +1162,7 @@ const hotelLocations = [
   {
     class: ".place-h34",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Mérida",
+    name: "City Express Plus by Marriot Mérida",
     address:
       "Calle 60 No. 346 , Centro, Mérida, Yucatán, México. C.P. 97000 Tel.: 999 690 1380",
     coords: [20.98380059388506, -89.61904717500967],
@@ -1180,7 +1180,7 @@ const hotelLocations = [
   {
     class: ".place-h35",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Mérida",
+    name: "City Express by Marriot Mérida",
     address:
       "Av. Prolongación Paseo de Montejo No. 332, Col. Benito Juárez Norte, Mérida, Yucatán, México. C.P. 97119 Tel.: 999 930 3230",
     coords: [21.020670579039912, -89.61886560744146],
@@ -1194,7 +1194,7 @@ const hotelLocations = [
   {
     class: ".place-h36",
     icon: ICON_CONFIGS.cityJunior,
-    name: "City Express Junior Mérida Altabrisa",
+    name: "City Express Junior by Marriot Mérida Altabrisa",
     address:
       "Calle 4 Periférico, entre calles 7 y 9C, Santa Rita Cholul, Mérida, Yucatán, México. C.P. 97130 Tel.: 999 913 0100",
     coords: [21.028237329791782, -89.57163977448214],
@@ -1208,7 +1208,7 @@ const hotelLocations = [
   {
     class: ".place-h37",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus Cancún Aeropuerto Riviera",
+    name: "City Express Plus by Marriot Cancún Aeropuerto Riviera",
     address:
       "Carr. Federal Cancun-Puerto Morelos SM-47 M-01 L-1-22 U.P.E. UC-05, Cancún, Quintana Roo, México. C.P. 77506 Tel.: 998 872 8710",
     coords: [20.98901692933984, -86.86326529670939],
@@ -1235,7 +1235,7 @@ const hotelLocations = [
   {
     class: ".place-h39",
     icon: ICON_CONFIGS.cityJunior,
-    name: "City Express Junior Cancún",
+    name: "City Express Junior by Marriot Cancún",
     address:
       "Av. Tulum Supermanzana 8, Manzana 1 Lote 3-01, Col. Centro, Cancún, Quintana Roo, México. C.P. 77500 Tel.: 998 193 3890",
     coords: [21.143589337088304, -86.82255077871051],
@@ -1249,7 +1249,7 @@ const hotelLocations = [
   {
     class: ".place-h40",
     icon: ICON_CONFIGS.citySuites,
-    name: "City Express Suites Playa del Carmen",
+    name: "City Express Suites by Marriot Playa del Carmen",
     address:
       "Av. Balamkanche Mza. 30 Lt 4, Playacar Fase II, Playa del Carmen, Quintana Roo, México. C.P. 77710 Tel.: 984 206 3488",
     coords: [20.98862867101274, -86.8586411293809],
@@ -1265,7 +1265,7 @@ const hotelLocations = [
   {
     class: ".place-h41",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Playa del Carmen",
+    name: "City Express by Marriot Playa del Carmen",
     address:
       "Av. Balamkanche Lt 4 Mza 30 Playacar Fase II, Fraccionamiento Playa Fase II, Solidaridad, Quintana Roo, México. C.P. 77710 Tel.: 984 206 3930",
     coords: [20.62420388700023, -87.08835762390181],
@@ -1278,7 +1278,7 @@ const hotelLocations = [
   {
     class: ".place-h41-1",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Chetumal",
+    name: "City Express by Marriot Chetumal",
     address:
       "Av. Insurgentes Km 5.025, Col. Emancipación de México, Chetumal, Quintana Roo, México. C.P. 77084 Tel.: 983 835 1980",
     coords: [18.521701654377868, -88.3241786634215],
@@ -1291,7 +1291,7 @@ const hotelLocations = [
   {
     class: ".place-h42",
     icon: ICON_CONFIGS.citySuites,
-    name: "City Express Suites Querétaro",
+    name: "City Express Suites by Marriot  Querétaro",
     address:
       "Av. 5 de Febrero No. 9852, Fracc. Industrial Benito Juárez Zona Jurica, Santiago de Querétaro, Querétaro, México. C.P. 76120 Tel.: 442 103 1700",
     coords: [20.653790047026078, -100.4322079191971],
@@ -1305,7 +1305,7 @@ const hotelLocations = [
   {
     class: ".place-h43",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Querétaro",
+    name: "City Express by Marriot Querétaro",
     address:
       "Lateral Autopista México - Querétaro No. 2103, Col. Estrella, Santiago de Querétaro, Querétaro, México. C.P. 76030 Tel.: 442 251 9900",
     coords: [20.577899844867108, -100.38530201802467],
@@ -1320,7 +1320,7 @@ const hotelLocations = [
   {
     class: ".place-h44",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Querétaro Juríca",
+    name: "City Express by Marriot Querétaro Juríca",
     address:
       "Av. 5 de Febrero No. 9200-A, Col. Parque Industrial Benito Juárez Fracc. Jurica, Querétaro Jurica, Querétaro, México. C.P. 76100 Tel.: 442 103 3900",
     coords: [20.649337298660154, -100.43184446522952],
@@ -1337,7 +1337,7 @@ const hotelLocations = [
   {
     class: ".place-h45",
     icon: ICON_CONFIGS.cityPlus,
-    name: "City Express Plus León Centro de Convenciones",
+    name: "City Express Plus by Marriot León Centro de Convenciones",
     address:
       "Blvd. Adolfo López Mateos Ote. No. 2003, Col. Las Bugambilias, León, Guanajuato, México. C.P. 37270 Tel.: 477 645 0179",
     coords: [21.11675497950489, -101.65510684617068],
@@ -1352,7 +1352,7 @@ const hotelLocations = [
   {
     class: ".place-h46",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express León",
+    name: "City Express by Marriot León",
     address:
       "Blvd. Adolfo López Mateos Ote. No. 3002, Fracc. San Isidro de Jerez, León, Guanajuato, México. C.P. 37530 Tel.: 477 710 5900",
     coords: [21.09945798776053, -101.62885496313424],
@@ -1367,7 +1367,7 @@ const hotelLocations = [
   {
     class: ".place-h47",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Celaya",
+    name: "City Express by Marriot Celaya",
     address:
       "Eje Norponiente Manuel J. Clouthier No. 803, Col. 15 de Mayo, Celaya, Guanajuato, México. C.P. 38016 Tel.: 461 618 5900",
     coords: [20.551323481152004, -100.83986322284878],
@@ -1380,7 +1380,7 @@ const hotelLocations = [
   {
     class: ".place-h48",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Celaya Galerías",
+    name: "City Express by Marriot Celaya Galerías",
     address:
       "Eje Nororiente Luis Donaldo Colosio No. 203, Santa Rosalía o La Cano, Celaya, Guanajuato, México. C.P. 38080 Tel.: 461 662 7800",
     coords: [20.529118888725442, -100.77614360941224],
@@ -1394,7 +1394,7 @@ const hotelLocations = [
   {
     class: ".place-h49",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Irapuato",
+    name: "City Express by Marriot Irapuato",
     address:
       "Blvd. Villas de Irapuato No. 1362, Col. Ejido Irapuato, Irapuato, Guanajuato, México. C.P. 36643 Tel.: 462 606 9800",
     coords: [20.684416171828733, -101.37475192123175],
@@ -1407,7 +1407,7 @@ const hotelLocations = [
   {
     class: ".place-h50",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Irapuato Norte",
+    name: "City Express by Marriot Irapuato Norte",
     address:
       "Av. Paseo Solidaridad No. 15595, Col. Ejido Lo De Juarez, Irapuato, Guanajuato, México. C.P. 36620 Tel.: 462 167 0600",
     coords: [20.719276983763066, -101.34456531224339],
@@ -1420,7 +1420,7 @@ const hotelLocations = [
   {
     class: ".place-h51",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Salamanca",
+    name: "City Express by Marriot Salamanca",
     address:
       "Avenida Faja de Oro No.1805 Poniente, El Pirul, Salamanca, Guanajuato, México. C.P. 36740 Tel.: 464 641 8100",
     coords: [20.585255637635292, -101.22166902528166],
@@ -1433,7 +1433,7 @@ const hotelLocations = [
   {
     class: ".place-h52",
     icon: ICON_CONFIGS.citySuites,
-    name: "City Express Suites Silao Aeropuerto",
+    name: "City Express Suites by Marriot Silao Aeropuerto",
     address:
       "Libramiento Norte No. 900 B, Col. Los Fresnos, Silao, Guanajuato, México. C.P. 36126 Tel.: 472 135 2300",
     coords: [20.95672663691956, -101.44286464987859],
@@ -1449,7 +1449,7 @@ const hotelLocations = [
   {
     class: ".place-h53",
     icon: ICON_CONFIGS.cityCentro,
-    name: "City Centro San Luis Potosí",
+    name: "City Centro by Marriot San Luis Potosí",
     address:
       "Calle Ignacio Aldama Núm. 405, Centro Historico, San Luis Potosí, San Luis Potosí, México. C.P. 78000 Tel.: 444 804 2280",
     coords: [22.15050003686416, -100.9767920075235],
@@ -1465,7 +1465,7 @@ const hotelLocations = [
   {
     class: ".place-h54",
     icon: ICON_CONFIGS.citySuites,
-    name: "City Express Suites San Luis Potosí",
+    name: "City Express Suites by Marriot San Luis Potosí",
     address:
       "Av. Benito Juárez No. 1530, Col. Jardines del Sur, San Luis Potosí, San Luis Potosí, México. C.P. 78399 Tel.: 444 826 9900",
     coords: [22.13451770097291, -100.93266151545917],
@@ -1495,7 +1495,7 @@ const hotelLocations = [
   {
     class: ".place-h56",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express San Luis Potosí Zona Industrial",
+    name: "City Express by Marriot San Luis Potosí Zona Industrial",
     address:
       "Carr. Central México - San Luis No. 2150, Fracc. Industrias, San Luis Potosí, San Luis Potosí, México. C.P. 78399 Tel.: 444 826 8700",
     coords: [22.13142294679292, -100.92390590320706],
@@ -1510,7 +1510,7 @@ const hotelLocations = [
   {
     class: ".place-h57",
     icon: ICON_CONFIGS.cityJunior,
-    name: "City Express Junior San Luis Potosí Carranza",
+    name: "City Express Junior by Marriot San Luis Potosí Carranza",
     address:
       "Av. Venustiano Carranza 1513, Los Álamos, San Luis Potosí, San Luis Potosí, México. C.P. 78174 Tel.: 444 880 8400",
     coords: [22.149871112032297, -100.99823449483075],
@@ -1536,7 +1536,7 @@ const hotelLocations = [
   {
     class: ".place-h59",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Chihuahua",
+    name: "City Express by Marriot Chihuahua",
     address:
       "Avenida de la Juventud 6108, Col. Desarrollo Comercial El Saucito, Chihuahua, Chihuahua, México. C.P. 31110 Tel.: 614 158 4000",
     coords: [28.664374245624636, -106.12828042454666],
@@ -1549,7 +1549,7 @@ const hotelLocations = [
   {
     class: ".place-h60",
     icon: ICON_CONFIGS.cityExpress,
-    name: "City Express Ciudad Juárez",
+    name: "City Express by Marriot Ciudad Juárez",
     address:
       "Av. Tomás Fernández No. 7810, Col. Partido Doblado, Ciudad Juárez, Chihuahua, México. C.P. 32424 Tel.: 656 227 0200",
     coords: [31.730103264759435, -106.4106733041144],
@@ -1564,7 +1564,7 @@ const hotelLocations = [
   {
     class: ".place-h61",
     icon: ICON_CONFIGS.cityJunior,
-    name: "City Express Junior Ciudad Juárez",
+    name: "City Express Junior by Marriot Ciudad Juárez",
     address:
       "Av. Paseo de la Victoria No. 3781, Col. Partido Senecu, Ciudad Juárez, Chihuahua, México. C.P. 32543 Tel.: 656 688 3550",
     coords: [31.68964668107684, -106.39185940826489],
