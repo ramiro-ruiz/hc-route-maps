@@ -473,6 +473,10 @@ ul {
   }
 }
 
+.logo {
+  max-width: 260px;
+}
+
 .modal {
   display: none;
   position: fixed;

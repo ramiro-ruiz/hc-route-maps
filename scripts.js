@@ -13,7 +13,7 @@
 const MAP_CONFIG = {
   defaultCenter: [20.659698, -103.349609], // Guadalajara
   defaultZoom: 5,
-  minZoomForMarkers: 8,
+  minZoomForMarkers: 7,
   tileLayerUrl:
     "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png",
   tileLayerAttribution:
